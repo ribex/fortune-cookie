@@ -46,6 +46,7 @@ class MainHandler(webapp2.RequestHandler):
 
 		content = header + fortune_paragrah + number_paragraph + cookie_again_button
 
+
 		self.response.write(content)
 
 routes = [
