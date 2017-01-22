@@ -39,7 +39,7 @@ class MainHandler(webapp2.RequestHandler):
 		fortune_paragrah = "<p>" + fortune_sentence + "</p>"
 
 		lucky_number = "<strong>" + str(random.randint(1, 100)) + "</strong>"
-		number_sentence = 'Your lucky number: ' + lucky_number
+		number_sentence = "Your lucky number: " + lucky_number
 		number_paragraph  = "<p>" + number_sentence + "</p>"
 
 		cookie_again_button = "<a href='.'><button>Again?</button></a>"
